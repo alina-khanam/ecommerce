@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* this header */
+
+header{
+    background-color: chocolate;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+   padding: 15px;
+    
+   
+}
+.main-header ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.global-btn{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+.first-section{
+        background-image: url(https://buffer.com/library/content/images/2023/10/free-images.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 10rem 0;
+        text-align: center
+    
+
+}
+.head{
+    color: red;
+    
+}
+.second-section p{
+    margin: 15px;
+
+}
+.second-section{
+    padding: 3rem;
+    text-align: center;
+    justify-content: center;
+}
+
+/* about us section */
+.divi{
+    display: flex;
+    padding: 7rem;
+    
+}
+
+.divi-2{
+    width: 500px;
+}
+.divi-2 p{
+    color: red;
+    /* padding: 3rem; */
+    margin: 15px 0;
+
+}
+/* This is service area */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-single-item h2{
+    margin: 15px 0;
+}
+.grid-single-item p{
+    color: cadetblue;
+}
+
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+    background-color: bisque;
+}
+
+.custom-icon-size{
+    font-size: 45px;
+}
+.work-single-img{
+    width: 350px;
+}
+
+/* testimonial  */
+
+.testimonial-p{
+    color: black  !important;
+    margin: 5px;
+}
+
+/* contact section */
+
+.contact-heading{
+    text-align: center;
+    margin: 40px;
+}
+.label-L{
+    text-align: left;
+}
+
+/* form{
+    margin: 5px;
+} */
+
+form input{
+        width: 250px; 
+}
+textarea{
+        width: 250px; 
+}
+.submit-btn{
+    width: 162px;
+    height: 25px;
+    background-color: cadetblue;
+    color: white;
+}
+
+/* this is footer */
+
+footer{
+    background-color: black;
+    color: white;
+    height: 3rem;
+    text-align: center;
+}
+footer p{
+ padding: 15px;
+}
